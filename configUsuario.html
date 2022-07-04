@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro de Usuário</title>
+    </head>
+    <body>
+        <header>
+            <h1>Olá, <span id="name-user">User</span></h1>
+        </header>
+        <main>
+            <div class="container">
+                <label for="name">Nome</label>
+                <input type="text" name="name" class="text-name">
+                <label for="hour-day"> Quantas disponíveis para estudar por dia</label>
+                <input type="number" name="hour-day" id="hour-day">
+                <label for="day-week">Quais os dias da semana está disponível para estudar</label>
+                <section>
+                    <input type="checkbox" name="sunday" class="sunday">Dom.
+                    <input type="checkbox" name="monday" class="monday">Seg.
+                    <input type="checkbox" name="tuesday" class="tuesday">ter.
+                    <input type="checkbox" name="wednesday" class="wednesday">Qua.
+                    <input type="checkbox" name="thursday" class="thursday">Qui.
+                    <input type="checkbox" name="friday" class="friday">Sex.
+                    <input type="checkbox" name="saturday" class="saturday">Sab.
+                </section>
+                <p class="total-hours"></p>
+                <button type="submit">Salvar</button>
+            </div>
+            
+        </main>
+    </body>
+</html>
